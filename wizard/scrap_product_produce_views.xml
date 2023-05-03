@@ -2,10 +2,10 @@
 <odoo>
 
         <record id="view_multi_scrap_product_produce_wizard" model="ir.ui.view">
-            <field name="name">Multi Scrap Orders</field>
+            <field name="name">Stock Consumption</field>
             <field name="model">multi.scrap.product.produce</field>
             <field name="arch" type="xml">
-                <form string="Multi Scrap Orders">
+                <form string="Stock Consumption">
                     <group>
                         <group>
                             <field name="scrap_location_id" force_save="1"/>
@@ -39,7 +39,7 @@
         </record>
 
         <record id="act_multi_scrap_product_produce" model="ir.actions.act_window">
-            <field name="name">Multi Scrap Orders</field>
+            <field name="name">Stock Consumption</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">multi.scrap.product.produce</field>
             <field name="view_mode">form</field>

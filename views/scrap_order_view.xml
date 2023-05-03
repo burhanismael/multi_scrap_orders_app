@@ -5,7 +5,7 @@
             <field name="name">stock.scrap.orders.form</field>
             <field name="model">stock.scrap.orders</field>
             <field name="arch" type="xml">
-                <form string="Multi Scrap Orders">
+                <form string="Stock Consumption">
                     <header>
                         <button name="action_validate" states="draft" string="Validate Scrap Orders" type="object" class="oe_highlight"/>
                         <field name="state" widget="statusbar" statusbar_visible="draft,done" />
@@ -90,7 +90,7 @@
         </record>
 
         <record model="ir.actions.act_window" id="action_stock_scrap_orders">
-            <field name="name">Multi Scrap Orders</field>
+            <field name="name">Stock Consumption</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">stock.scrap.orders</field>
             <field name="view_mode">tree,form</field>
@@ -107,7 +107,7 @@
         </record>
 
         <menuitem action="action_stock_scrap_orders" 
-            name="Multi Scrap Orders"
+            name="Stock Consumption"
             parent="stock.menu_stock_warehouse_mgmt"
             id="menu_stock_scrap_orders"
             sequence="115"

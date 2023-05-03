@@ -10,7 +10,7 @@
         This app helps user to scrap multi product at ones.
     """,
     "license" : "OPL-1",
-    "depends" : ['base','sale_management','stock'],
+    "depends" : ['base','sale_management','stock', 'hms_customization', 'healthcare_management'],
     "data": [
         'security/scrap_group.xml',
         'security/ir.model.access.csv',
